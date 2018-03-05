@@ -1,0 +1,15 @@
+1520221459a:1:{s:25:"chairs-rocking-chairs.htm";a:7:{s:8:"fileName";s:25:"chairs-rocking-chairs.htm";s:7:"content";s:794:"[viewBag]
+title = "Rocking Chairs"
+url = "/chairs/rocking-chairs"
+layout = "chair"
+is_hidden = "0"
+navigation_hidden = "0"
+tagline = "Rock yourself to sleep"
+==
+{% put sidebarSection %}
+<h3>​Etymology</h3><p>The word rocking chair comes from the verb to rock. The first known use of the term rocking chair was in 1766.</p>
+{% endput %}
+==
+<h3>​Rocking chair</h3><p>A rocking chair or rocker is a type of chair with two curved bands (also known as rockers) attached to the bottom of the legs, connecting the legs on each side to each other. The rockers contact the floor at only two points, giving the occupant the ability to rock back and forth by shifting his/her weight or pushing lightly with his/her feet. Rocking chairs are most commonly made of wood. Some rocking chairs can fold.</p>";s:5:"mtime";i:1520220058;s:6:"markup";s:453:"<h3>​Rocking chair</h3><p>A rocking chair or rocker is a type of chair with two curved bands (also known as rockers) attached to the bottom of the legs, connecting the legs on each side to each other. The rockers contact the floor at only two points, giving the occupant the ability to rock back and forth by shifting his/her weight or pushing lightly with his/her feet. Rocking chairs are most commonly made of wood. Some rocking chairs can fold.</p>";s:4:"code";s:176:"{% put sidebarSection %}
+<h3>​Etymology</h3><p>The word rocking chair comes from the verb to rock. The first known use of the term rocking chair was in 1766.</p>
+{% endput %}";s:7:"viewBag";a:6:{s:5:"title";s:14:"Rocking Chairs";s:3:"url";s:22:"/chairs/rocking-chairs";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"tagline";s:22:"Rock yourself to sleep";}s:12:"parsedMarkup";s:453:"<h3>​Rocking chair</h3><p>A rocking chair or rocker is a type of chair with two curved bands (also known as rockers) attached to the bottom of the legs, connecting the legs on each side to each other. The rockers contact the floor at only two points, giving the occupant the ability to rock back and forth by shifting his/her weight or pushing lightly with his/her feet. Rocking chairs are most commonly made of wood. Some rocking chairs can fold.</p>";}}

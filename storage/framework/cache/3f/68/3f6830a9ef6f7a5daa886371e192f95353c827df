@@ -1,0 +1,37 @@
+1520221459a:1:{s:14:"client/nav.htm";a:5:{s:8:"fileName";s:14:"client/nav.htm";s:7:"content";s:636:"<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>My Profile</span></li>
+        <li><a href="{{ 'account'|page }}">Change My Password</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Log out</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'clients'|staticPage }}">Client area</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";s:5:"mtime";i:1520220058;s:6:"markup";s:636:"<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>My Profile</span></li>
+        <li><a href="{{ 'account'|page }}">Change My Password</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Log out</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'clients'|staticPage }}">Client area</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";s:4:"code";N;}}

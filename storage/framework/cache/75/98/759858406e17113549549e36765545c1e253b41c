@@ -1,0 +1,8 @@
+1520221459a:1:{s:10:"chairs.htm";a:7:{s:8:"fileName";s:10:"chairs.htm";s:7:"content";s:141:"[viewBag]
+title = "Chairs"
+url = "/chairs"
+layout = "chair"
+is_hidden = "0"
+navigation_hidden = "0"
+==
+<p>We have a huge range of chairs.</p>";s:5:"mtime";i:1520220058;s:6:"markup";s:38:"<p>We have a huge range of chairs.</p>";s:4:"code";N;s:7:"viewBag";a:5:{s:5:"title";s:6:"Chairs";s:3:"url";s:7:"/chairs";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:38:"<p>We have a huge range of chairs.</p>";}}

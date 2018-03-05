@@ -1,0 +1,15 @@
+1520221459a:1:{s:22:"chairs-wheelchairs.htm";a:7:{s:8:"fileName";s:22:"chairs-wheelchairs.htm";s:7:"content";s:921:"[viewBag]
+title = "Wheelchairs"
+url = "/chairs/wheelchairs"
+layout = "chair"
+is_hidden = "0"
+navigation_hidden = "0"
+tagline = "Roll away in style!"
+==
+{% put sidebarSection %}
+<h3>​History</h3><p>The earliest records of wheeled furniture was an inscription found on a stone slate in China and a child’s bed depicted in a frieze on a Greek vase, both dating back to the 5th century BCE.</p>
+{% endput %}
+==
+<h3>​Wheelchair</h3><p>A wheelchair is a chair fitted with wheels. The device comes in variations allowing either manual propulsion by the seated occupant turning the rear wheels by hand, or electric propulsion by motors.</p><p>There are often handles behind the seat to allow it to be pushed by another person. Wheelchairs are used by people for whom walking is difficult or impossible due to illness, injury, or disability. People who have difficulty sitting and walking often make use of a wheelbench.</p>";s:5:"mtime";i:1520220058;s:6:"markup";s:510:"<h3>​Wheelchair</h3><p>A wheelchair is a chair fitted with wheels. The device comes in variations allowing either manual propulsion by the seated occupant turning the rear wheels by hand, or electric propulsion by motors.</p><p>There are often handles behind the seat to allow it to be pushed by another person. Wheelchairs are used by people for whom walking is difficult or impossible due to illness, injury, or disability. People who have difficulty sitting and walking often make use of a wheelbench.</p>";s:4:"code";s:255:"{% put sidebarSection %}
+<h3>​History</h3><p>The earliest records of wheeled furniture was an inscription found on a stone slate in China and a child’s bed depicted in a frieze on a Greek vase, both dating back to the 5th century BCE.</p>
+{% endput %}";s:7:"viewBag";a:6:{s:5:"title";s:11:"Wheelchairs";s:3:"url";s:19:"/chairs/wheelchairs";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"tagline";s:19:"Roll away in style!";}s:12:"parsedMarkup";s:510:"<h3>​Wheelchair</h3><p>A wheelchair is a chair fitted with wheels. The device comes in variations allowing either manual propulsion by the seated occupant turning the rear wheels by hand, or electric propulsion by motors.</p><p>There are often handles behind the seat to allow it to be pushed by another person. Wheelchairs are used by people for whom walking is difficult or impossible due to illness, injury, or disability. People who have difficulty sitting and walking often make use of a wheelbench.</p>";}}

@@ -1,0 +1,74 @@
+1520221459a:1:{s:18:"snippets/login.htm";a:7:{s:8:"fileName";s:18:"snippets/login.htm";s:7:"content";s:1207:"description = "Shows the client area sign in form"
+
+[viewBag]
+snippetCode = "login-module"
+snippetName = "Sign in module"
+snippetProperties[redirect|type] = "string"
+snippetProperties[redirect|title] = "Redirection page"
+snippetProperties[redirect|default] = "/clients"
+==
+{% if user %}
+    <p>You are logged in</p>
+    <p>
+        <a href="{{ 'clients'|staticPage }}" class="btn btn-default">
+            Access Client Area
+        </a>
+    </p>
+{% else %}
+    {{ form_ajax('onSignin', {
+        redirect: 'clients'|staticPage,
+        class: 'module-form'
+    }) }}
+        <label>{{ loginAttributeLabel }}</label>
+        <input type="text" name="login" value="" class="text" />
+
+        <label>Password</label>
+        <input type="password" name="password" value="" class="text" />
+        <button type="submit" class="submit">Sign in</button>
+    {{ form_close() }}
+
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{{ 'forgot-password'|page }}">
+                Forgot password?
+            </a>
+        </div>
+        <div class="col-md-6 text-right">
+            <a href="{{ 'account'|page }}">
+                Sign up
+            </a>
+        </div>
+    </div>
+{% endif %}";s:5:"mtime";i:1520220058;s:6:"markup";s:934:"{% if user %}
+    <p>You are logged in</p>
+    <p>
+        <a href="{{ 'clients'|staticPage }}" class="btn btn-default">
+            Access Client Area
+        </a>
+    </p>
+{% else %}
+    {{ form_ajax('onSignin', {
+        redirect: 'clients'|staticPage,
+        class: 'module-form'
+    }) }}
+        <label>{{ loginAttributeLabel }}</label>
+        <input type="text" name="login" value="" class="text" />
+
+        <label>Password</label>
+        <input type="password" name="password" value="" class="text" />
+        <button type="submit" class="submit">Sign in</button>
+    {{ form_close() }}
+
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{{ 'forgot-password'|page }}">
+                Forgot password?
+            </a>
+        </div>
+        <div class="col-md-6 text-right">
+            <a href="{{ 'account'|page }}">
+                Sign up
+            </a>
+        </div>
+    </div>
+{% endif %}";s:4:"code";N;s:11:"description";s:34:"Shows the client area sign in form";s:7:"viewBag";a:3:{s:11:"snippetCode";s:12:"login-module";s:11:"snippetName";s:14:"Sign in module";s:17:"snippetProperties";a:1:{s:8:"redirect";a:3:{s:4:"type";s:6:"string";s:5:"title";s:16:"Redirection page";s:7:"default";s:8:"/clients";}}}}}

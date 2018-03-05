@@ -1,0 +1,44 @@
+1520221459a:1:{s:9:"title.htm";a:5:{s:8:"fileName";s:9:"title.htm";s:7:"content";s:684:"{% if not bannerImage %}
+    {% set randomImage = ['highchair', 'sofa', 'cafe', 'in-field', 'wheelchair', 'chairs', 'lake', 'rocking-chairs'] %}
+    {% set bannerImage = banner ? banner|media : ('assets/images/chairs/'~random(randomImage)~'.jpg')|theme %}
+{% endif %}
+
+<div class="title-image">
+    <img src="{{ bannerImage }}" alt="" title="" class="img-responsive" />
+</div>
+<div class="title-heading">
+    <div class="title">
+        <h1>
+            <span>{{ title ?: this.page.title }}</span>
+        </h1>
+    </div>
+    <div class="desc">
+        <h2>
+            <span>
+                {{ tagline ?: this.page.meta_title }}
+            </span>
+        </h2>
+    </div>
+</div>
+";s:5:"mtime";i:1520220058;s:6:"markup";s:683:"{% if not bannerImage %}
+    {% set randomImage = ['highchair', 'sofa', 'cafe', 'in-field', 'wheelchair', 'chairs', 'lake', 'rocking-chairs'] %}
+    {% set bannerImage = banner ? banner|media : ('assets/images/chairs/'~random(randomImage)~'.jpg')|theme %}
+{% endif %}
+
+<div class="title-image">
+    <img src="{{ bannerImage }}" alt="" title="" class="img-responsive" />
+</div>
+<div class="title-heading">
+    <div class="title">
+        <h1>
+            <span>{{ title ?: this.page.title }}</span>
+        </h1>
+    </div>
+    <div class="desc">
+        <h2>
+            <span>
+                {{ tagline ?: this.page.meta_title }}
+            </span>
+        </h2>
+    </div>
+</div>";s:4:"code";N;}}

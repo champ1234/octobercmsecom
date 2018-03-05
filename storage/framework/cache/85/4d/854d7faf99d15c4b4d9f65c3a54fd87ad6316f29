@@ -1,0 +1,38 @@
+1520221459a:1:{s:14:"breadcrumb.htm";a:5:{s:8:"fileName";s:14:"breadcrumb.htm";s:7:"content";s:533:"
+{# Custom breadcrumb implementation that ignores the navigation_hidden flag #}
+
+{% import _self as nav %}
+
+{% macro render_crumb(page, isActive) %}
+    {% import _self as nav %}
+    {% if page.parent %}
+        {{ nav.render_crumb(page.parent, false) }}
+    {% endif %}
+    <li class="{{ isActive ? 'active' : '' }}">
+        <a href="{{ page.url|app }}">{{ page.title }}</a>
+    </li>
+{% endmacro %}
+
+{% if staticPage.parent %}
+    <ol class="breadcrumb">
+        {{ nav.render_crumb(staticPage.page, true) }}
+    </ol>
+{% endif %}";s:5:"mtime";i:1520220058;s:6:"markup";s:532:"{# Custom breadcrumb implementation that ignores the navigation_hidden flag #}
+
+{% import _self as nav %}
+
+{% macro render_crumb(page, isActive) %}
+    {% import _self as nav %}
+    {% if page.parent %}
+        {{ nav.render_crumb(page.parent, false) }}
+    {% endif %}
+    <li class="{{ isActive ? 'active' : '' }}">
+        <a href="{{ page.url|app }}">{{ page.title }}</a>
+    </li>
+{% endmacro %}
+
+{% if staticPage.parent %}
+    <ol class="breadcrumb">
+        {{ nav.render_crumb(staticPage.page, true) }}
+    </ol>
+{% endif %}";s:4:"code";N;}}

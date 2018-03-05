@@ -1,0 +1,154 @@
+1520221490a:1:{s:11:"default.htm";a:9:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2234:"description = "Default layout"
+
+[session]
+security = "all"
+redirect = "home"
+
+[staticMenu mainMenu]
+code = "main-menu"
+
+[staticPage]
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body>
+        {variable tab="Header" type="text" name="tagline" label="Tagline"}{/variable}
+        {variable tab="Header" type="mediafinder" mode="image" name="banner" label="Banner image"}{/variable}
+
+        <!-- Top -->
+        <div id="top-nav">
+            <div class="container">
+                <!-- Put anything here, social links? -->
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial "header" %}
+
+            <!-- Nav -->
+            <nav id="layout-nav">
+                {% partial "nav" %}
+            </nav>
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            <div class="container">
+
+                <div class="slider-wrapper title-style">
+                    {% partial "title" %}
+                </div>
+
+                {% set hasChildren = (staticPage.parent ?: staticPage.page).children %}
+
+                <div class="content-area with-padding">
+                    {% if hasChildren %}
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="module-sidemenu">
+                                    {% partial 'sidemenu' page=staticPage.page %}
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                {% page %}
+                            </div>
+                        </div>
+                    {% else %}
+                        {% page %}
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Slogan -->
+        <div id="layout-slogan">
+            <div class="container">
+                <div class="service-strip"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+        {% partial 'scripts' %}
+
+    </body>
+</html>";s:5:"mtime";i:1520220058;s:6:"markup";s:2098:"<!DOCTYPE html>
+<html>
+    <head>
+        {% partial 'meta' %}
+    </head>
+    <body>
+        {variable tab="Header" type="text" name="tagline" label="Tagline"}{/variable}
+        {variable tab="Header" type="mediafinder" mode="image" name="banner" label="Banner image"}{/variable}
+
+        <!-- Top -->
+        <div id="top-nav">
+            <div class="container">
+                <!-- Put anything here, social links? -->
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial "header" %}
+
+            <!-- Nav -->
+            <nav id="layout-nav">
+                {% partial "nav" %}
+            </nav>
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            <div class="container">
+
+                <div class="slider-wrapper title-style">
+                    {% partial "title" %}
+                </div>
+
+                {% set hasChildren = (staticPage.parent ?: staticPage.page).children %}
+
+                <div class="content-area with-padding">
+                    {% if hasChildren %}
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="module-sidemenu">
+                                    {% partial 'sidemenu' page=staticPage.page %}
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                {% page %}
+                            </div>
+                        </div>
+                    {% else %}
+                        {% page %}
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Slogan -->
+        <div id="layout-slogan">
+            <div class="container">
+                <div class="service-strip"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+        {% partial 'scripts' %}
+
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:4:"home";}s:19:"staticMenu mainMenu";a:1:{s:4:"code";s:9:"main-menu";}s:10:"staticPage";a:0:{}}}
